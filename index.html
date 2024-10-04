@@ -153,19 +153,20 @@
     </footer>
 </section>
 
-<!-- Modal Form -->
+<!-- Contact Form -->
 <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         <h2>Contact Me</h2>
-        <form method="post" action="#">
+        <form method="post" action="send_email.php">
             <div class="row gtr-uniform">
                 <div class="col-6 col-12-xsmall">
                     <input type="text" name="name" id="name" value="" placeholder="Name (required)" required/>
                 </div>
                 <div class="col-6 col-12-xsmall">
-                    <input type="email" name="email" id="email" value="" placeholder="Email (required)" required/>
-                </div>
+					<input type="email" name="email" id="email" placeholder="Work Email (required)" required />
+				</div>
+				
                 <div class="col-12">
 					<select name="category" id="category">
 						<option value="" selected disabled>How can I help you?</option>
@@ -231,8 +232,6 @@
 				<dl class="alt">
 					<dt>Address</dt>
 					<dd>West Capitol Drive Kapitolyo &bull; Pasig City &bull; PH</dd>
-					<dt>Phone</dt>
-					<dd>+63 961 250 4336</dd>
 					<dt>Email</dt>
 					<dd><a href="mailto:ksolroman@gmail.com">ksolroman@gmail.com</a></dd>
 				</dl>
